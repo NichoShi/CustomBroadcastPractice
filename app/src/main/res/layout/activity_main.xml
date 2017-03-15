@@ -34,6 +34,15 @@
     </TableRow>
 
     <TableRow>
+
+        <CheckBox
+            android:id="@+id/rememberPsw"/>
+        <TextView
+            android:text="记住密码"
+            android:id="@+id/rememberPsw_textView"/>
+    </TableRow>
+
+    <TableRow>
         <Button
             android:text="登录"
             android:textSize="15sp"
